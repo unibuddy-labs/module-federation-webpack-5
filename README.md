@@ -1,4 +1,4 @@
-# Module Federation
+# Module Federation - Webpack 5
 
 ## How to use
 
@@ -6,13 +6,14 @@ Run the following commands in the root directory.
 
 ```bash
 yarn
-yarn start
+cd host && yarn start
+cd remote && yarn start
 ```
 
-Both `app1` and `app2` are independently deployed apps:
+Both `host` and `remote` are independently deployed apps:
 
--   `app1`: http://localhost:3001
--   `app2`: http://localhost:3002
+-   `host`: http://localhost:3001
+-   `remote`: http://localhost:3002
 
 Check out this link below for more examples:
 
